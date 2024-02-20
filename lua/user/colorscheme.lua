@@ -1,11 +1,12 @@
 local M = {
-  "LunarVim/darkplus.nvim",
+  "catppuccin/nvim",
+  name = "catppuccin",
   lazy = false,
   priority = 1000,
 }
 
 function M.config()
-  vim.cmd.colorscheme "darkplus"
+  vim.cmd.colorscheme "catppuccin-frappe"
 end
 
 return M
