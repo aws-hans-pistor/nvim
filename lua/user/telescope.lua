@@ -62,6 +62,7 @@ function M.config()
 
       mappings = {
         i = {
+          ["<C-g>"] = actions.close,
           ["<C-n>"] = actions.cycle_history_next,
           ["<C-p>"] = actions.cycle_history_prev,
 
@@ -70,6 +71,7 @@ function M.config()
         },
         n = {
           ["<esc>"] = actions.close,
+          ["<C-g>"] = actions.close,
           ["j"] = actions.move_selection_next,
           ["k"] = actions.move_selection_previous,
           ["q"] = actions.close,
