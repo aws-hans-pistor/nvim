@@ -15,6 +15,11 @@ spec "user.telescope"
 spec "user.harpoon"
 spec "user.none-ls"
 spec "user.gitsigns"
+spec "user.nvimtree"
+spec "user.lualine"
+spec "user.autopairs"
+spec "user.neogit"
+spec "user.project"
 
 
 require "user.lazy"
