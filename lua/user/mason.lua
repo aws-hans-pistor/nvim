@@ -12,7 +12,7 @@ function M.config()
     "pyright",
     "bashls",
     "tsserver",
-    "jsonls"
+    "jsonls",
   }
 
   require("mason").setup {

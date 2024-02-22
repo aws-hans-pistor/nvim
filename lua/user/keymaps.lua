@@ -5,6 +5,8 @@ keymap("n", "<SPACE>", "", opts)
 vim.g.mapleader = " "
 vim.g.maplocaleader = " "
 
+keymap("i", "jk", "<Esc>", opts)
+
 -- Go back & forward with C-o and C-i
 keymap("n", "<C-i>", "<C-i>", opts)
 keymap("n", "<C-o>", "<C-o>", opts)

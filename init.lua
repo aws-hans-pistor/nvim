@@ -20,6 +20,8 @@ spec "user.lualine"
 spec "user.autopairs"
 spec "user.neogit"
 spec "user.project"
+spec "user.rust-tools"
+spec "user.trouble"
 
 
 require "user.lazy"
